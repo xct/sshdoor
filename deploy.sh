@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "..::Deploying SSH Demon::.."
+echo "..::Deploying SSH Daemon::.."
 echo "=> "$(grep "Port" sshd_config)
 
 mkdir -p /tmp/xct/
